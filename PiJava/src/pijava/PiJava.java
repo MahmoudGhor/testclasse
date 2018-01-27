@@ -19,6 +19,7 @@ public class PiJava extends Application {
     //kzekvzzevzeve
     // 3andek 7a9
     //hello
+    //nenen
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
