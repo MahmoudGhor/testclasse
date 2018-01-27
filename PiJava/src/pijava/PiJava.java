@@ -17,6 +17,9 @@ import javafx.stage.Stage;
  */
 public class PiJava extends Application {
     //kzekvzzevzeve
+    
+    
+    // stupid nasr
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
