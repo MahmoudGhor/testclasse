@@ -17,9 +17,8 @@ import javafx.stage.Stage;
  */
 public class PiJava extends Application {
     //kzekvzzevzeve
-    
-    
-    // stupid nasr
+    // 3andek 7a9
+    //amine
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
@@ -29,7 +28,8 @@ public class PiJava extends Application {
         stage.setScene(scene);
         stage.show();
     }
-
+// test test
+    // another test
     /**
      * @param args the command line arguments
      */
