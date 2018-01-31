@@ -13,14 +13,15 @@ public class Personne {
     public int id;
     public String nom;
     public String prenom;
+    public static Personne instance;
 
-    public Personne(int id, String nom, String prenom) {
+    private Personne(int id, String nom, String prenom) {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
     }
 
-    public Personne() {
+    private Personne() {
     }
 
     @Override
@@ -29,6 +30,14 @@ public class Personne {
     }
     
     
+    //classe statful
+    public static Personne getInstance(){
+        if (instance == null)
+        {
+            instance = new Personne();
+        }
+        return instance;
+    }
     
     
 }

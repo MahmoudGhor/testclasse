@@ -13,8 +13,8 @@ import edu.esprit.entites.Personne;
  */
 public class MainClass {
     public static void main(String[] args) {
-        Personne p1 = new Personne(14, "tounsi", "hassen");
-        Personne p2 = new Personne(55, "benzarti", "hela");
+        Personne p1 =  Personne.getInstance();
+        Personne p2 = Personne.getInstance();
         
         System.out.println(p1.hashCode());
         System.out.println(p2.hashCode());
